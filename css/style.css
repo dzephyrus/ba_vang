@@ -732,6 +732,11 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(178px, 1fr));
   grid-gap: 0px 24px; }
 
+.flex-col3 .flex-col3-item {
+  border-right: 1px solid #dee2e6; }
+  .flex-col3 .flex-col3-item:last-child {
+    border: none; }
+
 .detail-tag {
   display: flex;
   margin: 30px 0 20px 0; }
@@ -996,6 +1001,21 @@ input[type="search"].sb-search-input {
   transition: opacity .2s ease;
   border-radius: 30px; }
 
+.owl-carousel3 .owl-nav {
+  top: 245px; }
+  .owl-carousel3 .owl-nav .owl-prev-custom, .owl-carousel3 .owl-nav .owl-next-custom {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5B764;
+    border-radius: 7px; }
+  .owl-carousel3 .owl-nav .owl-prev-custom {
+    left: -88px; }
+  .owl-carousel3 .owl-nav .owl-next-custom {
+    right: -88px; }
+
 .gold-section {
   background-image: url("../images/phap-am-bg.jpg");
   background-size: 100%; }
@@ -1039,7 +1059,7 @@ input[type="search"].sb-search-input {
         color: #555555; }
 
 .footer-bg {
-  top: -700px;
+  top: -600px;
   z-index: -1; }
 
 /*# sourceMappingURL=style.css.map */
