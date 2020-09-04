@@ -1,5 +1,8 @@
 /* Scss Document */
 @media (max-width: 1199px) {
+  .w-1120 {
+    width: 100%; }
+
   .w-lg-25 {
     width: 25% !important; }
 
@@ -38,7 +41,10 @@
     height: 87px; }
 
   .article-news .article-news_image {
-    height: 128px; } }
+    height: 128px; }
+
+  .flex-col3 .flex-col3-item {
+    border-right: none; } }
 @media (max-width: 991px) {
   .w-md-25 {
     width: 25% !important; }
@@ -194,7 +200,38 @@
     transition: all 0.3s;
     box-sizing: border-box;
     transform: rotate(-135deg);
-    margin-top: -9px; } }
+    margin-top: -9px; }
+
+  .slide-main {
+    height: 200px; }
+
+  .h1-md-mon {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px; }
+
+  .h2-md-mon {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px; }
+
+  .h3-md-mon {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px; }
+
+  .h4-md-mon {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px; } }
 @media (max-width: 769px) {
   html, body {
     overflow-x: hidden;
@@ -495,6 +532,62 @@
     font-size: 16px; }
 
   .fs-mb-15 {
-    font-size: 1.1em; } }
+    font-size: 1.1em; }
+
+  .slide-main {
+    height: 98px; }
+    .slide-main .carousel-indicators {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 15;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding-left: 0;
+      margin-right: 0;
+      margin-left: 0;
+      margin-bottom: 0;
+      list-style: none; }
+      .slide-main .carousel-indicators li {
+        width: 5px;
+        height: 5px; }
+
+  .top-news {
+    height: auto; }
+    .top-news .top-news-title {
+      width: 100%; }
+    .top-news .top-news-image {
+      width: 100%; }
+
+  .h1-sm-mon {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px; }
+
+  .h2-sm-mon {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px; }
+
+  .h3-sm-mon {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px; }
+
+  .h4-sm-mon {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px; } }
 
 /*# sourceMappingURL=responsive.css.map */
