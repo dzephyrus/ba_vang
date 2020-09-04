@@ -1219,3 +1219,24 @@ input[type="search"].sb-search-input {
 		}
 	}
 }
+
+.footer-section{
+	background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #ffffff99;
+border-radius: 7px;
+	.footer-logo{
+		width: 347px;
+	}
+	.footer-info{
+		width: 668px;
+		.media-list{
+			list-style-type: disc;
+			.media-list-icon{
+				padding: 7px 0;
+				color: #555555;
+			}
+		}
+	}
+}
+.footer-bg{
+		top: -700px; z-index: -1;
+	}
