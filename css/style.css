@@ -1025,4 +1025,21 @@ input[type="search"].sb-search-input {
     right: 0;
     top: 0; }
 
+.footer-section {
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #ffffff99;
+  border-radius: 7px; }
+  .footer-section .footer-logo {
+    width: 347px; }
+  .footer-section .footer-info {
+    width: 668px; }
+    .footer-section .footer-info .media-list {
+      list-style-type: disc; }
+      .footer-section .footer-info .media-list .media-list-icon {
+        padding: 7px 0;
+        color: #555555; }
+
+.footer-bg {
+  top: -700px;
+  z-index: -1; }
+
 /*# sourceMappingURL=style.css.map */
