@@ -556,9 +556,11 @@ p {
 .abbot-section {
   height: 333px; }
   .abbot-section .abbot-section-avatar {
-    right: 64px; }
+    right: 64px;
+    z-index: 1; }
   .abbot-section .abbot-section-des {
-    padding-left: 64px; }
+    padding-left: 64px;
+    z-index: 2; }
 
 /*-------------------------------------------------
 					----LEAF----
