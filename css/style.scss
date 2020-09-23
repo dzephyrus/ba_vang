@@ -609,7 +609,7 @@ width: 212px;
 //    grid-template-columns: repeat(3, 1fr);
 //    grid-template-columns: 160px 160px 160px 160px 160px;
     grid-template-columns: repeat(auto-fit, minmax(178px, 1fr));
-    grid-gap: 0px 24px;
+    grid-gap: 0px 20px;
 }
 
 .flex-col3{
@@ -928,6 +928,15 @@ input[type="search"].sb-search-input {
 			top: 0;
 		}
 	}
+}
+.social-icon{
+	width: 32px;
+	height: 32px;
+	background: #bdbdbd;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
 }
 
 .footer-section{
