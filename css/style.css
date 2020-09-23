@@ -503,7 +503,7 @@ p {
 .grid-col3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(178px, 1fr));
-  grid-gap: 0px 24px; }
+  grid-gap: 0px 20px; }
 
 .flex-col3 .flex-col3-item {
   border-right: 1px solid #dee2e6; }
@@ -774,6 +774,15 @@ input[type="search"].sb-search-input {
   .operation-rules .operation-rules-item .lead-thumb {
     right: 0;
     top: 0; }
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  background: #bdbdbd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px; }
 
 .footer-section {
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #ffffff99;

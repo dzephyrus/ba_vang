@@ -588,6 +588,16 @@
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
-    line-height: 18px; } }
+    line-height: 18px; }
+
+  .mini-video-title {
+    font-weight: normal; }
+
+  .play-button {
+    width: 20px;
+    height: 20px; }
+
+  .play-time {
+    font-size: 11px; } }
 
 /*# sourceMappingURL=responsive.css.map */
