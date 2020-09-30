@@ -327,6 +327,9 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 			}
 		}
 	}
+	.footer-bg{
+		top: 200px
+	}
 }
 
 @media (max-width: 769px) {
@@ -565,7 +568,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 		overflow: hidden;
 		z-index: 10;
 	}
-	
 	
 }
 
@@ -826,5 +828,22 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 				right: 2px;
 			}
 		}
+	}
+	.footer-bg{
+		top: 600px
+	}
+	.media-list{
+			list-style-type: disc;
+			.media-list-icon{
+				padding: 7px 0;
+				color: #555555;
+				font-size: 8px;
+			}
+		}
+	.live-notification{
+		font-size: 8px;
+		margin-left: 15px;
+		padding-left: 15px;
+		border-left: 1px solid white;
 	}
 }
