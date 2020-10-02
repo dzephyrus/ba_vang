@@ -989,13 +989,12 @@ input[type="search"].sb-search-input {
 //    background-color: hsla(5, 76%, 62%, .8);
 //    background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
 //}
-article .back-to-top {
-    position: fixed;
-    bottom: 25px;
-    right: 321px;
-	width: 40px;
-	height: 40px;
-	border: 1px solid #E5E5E5;
+.back-to-top {
+    position: sticky;
+    top: 873px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #E5E5E5;
 	
 //    display: none;
 }
