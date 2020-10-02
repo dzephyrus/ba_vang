@@ -789,10 +789,9 @@ input[type="search"].sb-search-input {
   align-items: center;
   border-radius: 3px; }
 
-article .back-to-top {
-  position: fixed;
-  bottom: 25px;
-  right: 321px;
+.back-to-top {
+  position: sticky;
+  top: 873px;
   width: 40px;
   height: 40px;
   border: 1px solid #E5E5E5; }
