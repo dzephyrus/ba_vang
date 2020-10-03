@@ -916,6 +916,11 @@ input[type="search"].sb-search-input {
             padding: 0 25px;
         }
     }
+	.expand-menu{
+		.dropdown-toggle-split{
+			background: linear-gradient(90deg, rgba(251,251,251,0) 0%, rgba(255,255,255,0.577468487394958) 100%);
+		}
+	}
 }
 .operation-rules{
 	.operation-rules-item{
@@ -997,6 +1002,21 @@ input[type="search"].sb-search-input {
     border: 1px solid #E5E5E5;
 	
 //    display: none;
+}
+.expand-menu{
+	.dropdown-menu{
+		width: 100%;
+		top: 50px;
+		border: none;
+		margin-top: 42px
+	}
+	.dropdown-toggle-split{
+		background: linear-gradient(90deg, rgba(251,251,251,0) 0%, rgba(0,0,0,0.577468487394958) 100%);
+	}
+	.expand-menu-cate-name{
+		white-space: nowrap;
+		display: inline-table
+	}
 }
 
 .footer-section{
