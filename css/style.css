@@ -765,6 +765,8 @@ input[type="search"].sb-search-input {
     border-left: 1px solid #ffffff; }
   .gold-section .cate-list .cate-list_item {
     padding: 0 25px; }
+  .gold-section .expand-menu .dropdown-toggle-split {
+    background: linear-gradient(90deg, rgba(251, 251, 251, 0) 0%, rgba(255, 255, 255, 0.5774684874) 100%); }
 
 .operation-rules .operation-rules-item {
   height: 156px;
@@ -795,6 +797,17 @@ input[type="search"].sb-search-input {
   width: 40px;
   height: 40px;
   border: 1px solid #E5E5E5; }
+
+.expand-menu .dropdown-menu {
+  width: 100%;
+  top: 50px;
+  border: none;
+  margin-top: 42px; }
+.expand-menu .dropdown-toggle-split {
+  background: linear-gradient(90deg, rgba(251, 251, 251, 0) 0%, rgba(0, 0, 0, 0.5774684874) 100%); }
+.expand-menu .expand-menu-cate-name {
+  white-space: nowrap;
+  display: inline-table; }
 
 .footer-section {
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #ffffff99;
