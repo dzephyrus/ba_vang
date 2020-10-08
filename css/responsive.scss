@@ -833,13 +833,21 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 		top: 600px
 	}
 	.media-list{
-			list-style-type: disc;
-			.media-list-icon{
-				padding: 7px 0;
-				color: #555555;
-				font-size: 8px;
-			}
-		}
+        list-style-type: disc;
+        .media-list-icon{
+            padding: 7px 0;
+            color: #555555;
+            font-size: 12px;
+        }
+    }
+	.noti-list{
+		list-style-type: disc;
+        .media-list-icon{
+            padding: 7px 0;
+            color: #555555;
+            font-size: 8px!important;
+        }
+	}
 	.live-notification{
 		font-size: 8px;
 		margin-left: 15px;

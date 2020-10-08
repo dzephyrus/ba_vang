@@ -716,7 +716,14 @@
     .media-list .media-list-icon {
       padding: 7px 0;
       color: #555555;
-      font-size: 8px; }
+      font-size: 12px; }
+
+  .noti-list {
+    list-style-type: disc; }
+    .noti-list .media-list-icon {
+      padding: 7px 0;
+      color: #555555;
+      font-size: 8px !important; }
 
   .live-notification {
     font-size: 8px;
