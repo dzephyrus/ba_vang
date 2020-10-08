@@ -1051,7 +1051,22 @@ input[type="search"].sb-search-input {
 		display: inline-table
 	}
 }
-
+.news-description{
+	background-image:url("../images/Group 1175.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	&-text{
+		border-left: 1px solid white;
+	}
+}
+.news-category{
+	border-bottom: 2px solid #C4C4C4;
+	a{
+		@extend .h4-mon;
+		color: #828282;
+		padding: 8px 0;
+	}
+}
 .footer-section{
 	background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #ffffff99;
 border-radius: 7px;

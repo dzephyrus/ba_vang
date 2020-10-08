@@ -293,7 +293,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 		line-height: 18px;
 	}
 	.mini-news,.mini-news-mb{
-		.mini-news_item{
+		.flex-col3{
 			padding-bottom: 16px;
 			margin-bottom: 16px;
 			border-bottom: none;
@@ -329,6 +329,11 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 	}
 	.footer-bg{
 		top: 200px
+	}
+	.news-description{
+		&-text{
+			border: none;
+		}
 	}
 }
 
@@ -494,6 +499,13 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   .w-sm-100 {
     width: 100% !important;
   }
+	.Small-sm-text{
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 8px;
+		line-height: 15px;
+	} 
   .fs-sm-8 {
     font-size: 8px;
 	}
@@ -853,5 +865,13 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 		margin-left: 15px;
 		padding-left: 15px;
 		border-left: 1px solid white;
+	}
+	.flex-col3{
+		.flex-col3-item{
+			&:last-child{
+				display: none!important; 
+			}
+			border-right: none;
+		} 
 	}
 }
