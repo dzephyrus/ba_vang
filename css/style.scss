@@ -1059,6 +1059,11 @@ input[type="search"].sb-search-input {
 		border-left: 1px solid white;
 	}
 }
+.new-detail-description{
+	&-text{
+		border-left: 2px solid $brown;
+	}
+}
 .news-category{
 	border-bottom: 2px solid #C4C4C4;
 	a{

@@ -841,6 +841,9 @@ input[type="search"].sb-search-input {
   .news-description-text {
     border-left: 1px solid white; }
 
+.new-detail-description-text {
+  border-left: 2px solid #7A3E0C; }
+
 .news-category {
   border-bottom: 2px solid #C4C4C4; }
   .news-category a {
