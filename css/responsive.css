@@ -744,6 +744,18 @@
   .flex-col3 .flex-col3-item {
     border-right: none; }
     .flex-col3 .flex-col3-item:last-child {
-      display: none !important; } }
+      display: none !important; }
+
+  .gold-ul li::before {
+    background-color: #E5B764;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    margin-right: 16px;
+    /* margin-bottom: 2px; */
+    height: 13px;
+    width: 17px;
+    /* padding-top: 10px; */
+    margin-top: 5px; } }
 
 /*# sourceMappingURL=responsive.css.map */
