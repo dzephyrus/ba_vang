@@ -89,6 +89,11 @@
 			}
 		}
 	}
+	.grid-col3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(176px, 1fr));
+    grid-gap: 0px 20px;
+}
 	
 //  .article-news{
 //  	.article-news_image{
@@ -874,16 +879,16 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 			border-right: none;
 		} 
 	}
-	.gold-ul li::before {
-    background-color: #E5B764;
-    border-radius: 50%;
-    content: "";
-    display: inline-block;
-    margin-right: 16px;
-    /* margin-bottom: 2px; */
-    height: 13px;
-    width: 17px;
-    /* padding-top: 10px; */
-    margin-top: 5px;
-}
+	.gold-ul{
+		li{
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 16px;
+			&::before{
+				top:3px;
+			}
+		}
+	}
 }
