@@ -200,7 +200,7 @@ $lightgray:#828282;
 .text-gold{
     color: #E5B764;
 }
-.text-2{
+.gold-ul{
     color: #4F4F4F;
 }
 .sticky {
@@ -923,6 +923,29 @@ input[type="search"].sb-search-input {
 		}
 	}
 }
+.owl-carousel6{
+	.owl-nav-custom{
+		top: 60px;
+		.owl-prev, .owl-next{
+			width: 64px;
+			height: 64px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: #E5B764;
+			border-radius: 7px;
+			i{
+				font-size: 35px;
+			}
+		}
+		.owl-prev{
+			left: -88px;
+		}
+		.owl-next{
+			right: -88px;
+		}
+	}
+}
 .gold-section{
     background-image: url("../images/phap-am-bg.jpg");
     background-size: 100%;
@@ -1080,15 +1103,15 @@ input[type="search"].sb-search-input {
 			border-left: none;
 			border-right: none;
 		}
+		.form-control:focus{
+			box-shadow: none;
+		}
 	}
 	.old-comment{
 		&-item{
 			border-bottom: 1px solid #828282;
 			margin-bottom: 16px;
 			padding-bottom: 16px;
-			&:last-child{
-				border-bottom: none;
-			}
 		}
 	}
 }
@@ -1097,15 +1120,17 @@ input[type="search"].sb-search-input {
 	list-style-type: none;
 	li{
 		@extend .h3-mon;
+		position: relative;
 		&::before{
 			background-color: #E5B764;
-			  border-radius: 50%;
-			  content: "";
-			  display: inline-block;
-			  margin-right: 16px;
-			  margin-bottom: 2px;
-			  height: 10px;
-			  width: 10px;
+			border-radius: 50%;
+			content: "";
+			display: inline-block;
+			height: 10px;
+			width: 10px;
+			position: absolute;
+			top: 8px;
+			left: 0px;
 		}
 	}
 }

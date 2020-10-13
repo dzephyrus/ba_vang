@@ -182,7 +182,7 @@ h6 {
 .text-gold {
   color: #E5B764; }
 
-.text-2 {
+.gold-ul {
   color: #4F4F4F; }
 
 .sticky {
@@ -771,6 +771,23 @@ input[type="search"].sb-search-input {
   .owl-carousel4 .owl-nav-custom .owl-next {
     right: -88px; }
 
+.owl-carousel6 .owl-nav-custom {
+  top: 60px; }
+  .owl-carousel6 .owl-nav-custom .owl-prev, .owl-carousel6 .owl-nav-custom .owl-next {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5B764;
+    border-radius: 7px; }
+    .owl-carousel6 .owl-nav-custom .owl-prev i, .owl-carousel6 .owl-nav-custom .owl-next i {
+      font-size: 35px; }
+  .owl-carousel6 .owl-nav-custom .owl-prev {
+    left: -88px; }
+  .owl-carousel6 .owl-nav-custom .owl-next {
+    right: -88px; }
+
 .gold-section {
   background-image: url("../images/phap-am-bg.jpg");
   background-size: 100%; }
@@ -855,24 +872,27 @@ input[type="search"].sb-search-input {
   border-top: none;
   border-left: none;
   border-right: none; }
+.comment-form .new-comment .form-control:focus {
+  box-shadow: none; }
 .comment-form .old-comment-item {
   border-bottom: 1px solid #828282;
   margin-bottom: 16px;
   padding-bottom: 16px; }
-  .comment-form .old-comment-item:last-child {
-    border-bottom: none; }
 
 .gold-ul {
   list-style-type: none; }
-  .gold-ul li::before {
-    background-color: #E5B764;
-    border-radius: 50%;
-    content: "";
-    display: inline-block;
-    margin-right: 16px;
-    margin-bottom: 2px;
-    height: 10px;
-    width: 10px; }
+  .gold-ul li {
+    position: relative; }
+    .gold-ul li::before {
+      background-color: #E5B764;
+      border-radius: 50%;
+      content: "";
+      display: inline-block;
+      height: 10px;
+      width: 10px;
+      position: absolute;
+      top: 8px;
+      left: 0px; }
 
 .footer-section {
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #ffffff99;
