@@ -176,10 +176,10 @@ h6 {
 .text-lightgray {
   color: #828282; }
 
-.text-brown {
+.text-brown, .section-title a {
   color: #7A3E0C; }
 
-.text-gold {
+.text-gold, .section-title a:hover {
   color: #E5B764; }
 
 .gold-ul {
@@ -803,6 +803,8 @@ input[type="search"].sb-search-input {
       background-image: url(../images/icon/white-lotus.svg);
       background-repeat: no-repeat;
       margin-right: 16px; }
+    .gold-section .section-title a {
+      color: #FFFFFF; }
   .gold-section .cate-list .cate-list_item:first-child {
     border-left: 1px solid #ffffff; }
   .gold-section .cate-list .cate-list_item {
