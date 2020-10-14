@@ -283,7 +283,7 @@
                 		<div class="row pt-3 flex-wrap bg-base mx-sm-n3 mx-md-0 mx-xl-n3">
 							<div class="col-lg-9">
                         <div class="d-none d-lg-flex justify-content-between align-items-center pb-3">
-                            <h3 class="section-title h2-mon">Tin tức</h3>
+                            <h3 class="section-title h2-mon"><a href="">Tin Tức</a></h3>
                             <div class="">
                                 <button class="btn btn-outline-dark-custom">Phật Giáo</button>
                                 <button class="btn btn-outline-dark-custom">Từ Thiện</button>
@@ -946,7 +946,7 @@
 				<div class="mx-sm-n3 mx-lg-0">
 				<div class="d-flex flex-wrap align-items-center pb-3 px-3 px-md-0 justify-content-between">
                     <div class="d-flex flex-wrap">
-                        <h4 class="section-title pr-4">Pháp âm</h4>
+                        <h4 class="section-title pr-4"><a href="">Pháp âm</a></h4>
                           <div class="d-none d-md-flex align-items-center flex-wrap cate-list pl-2 pt-sm-2 ml-sm-n3">
                               <a href="" class="cate-list_item text-white h4-mon">Phật pháp ứng dụng</a>
                               <a href="" class="cate-list_item text-white h4-mon">Phật pháp với tuổi trẻ</a>
@@ -2111,26 +2111,15 @@
 													</div>
 												</div>
 												<div class="owl-nav position-absolute w-100 owl-nav-custom" >
-													<div class="owl-prev-custom-5 owl-prev-custom-4 position-absolute owl-prev" ><i class="fas fa-chevron-left"></i></div>
-													<div class="owl-next-custom-5 owl-next-custom-5 position-absolute ml-5 owl-next" ><i class="fas fa-chevron-right"></i></div>
+													<div class="owl-prev-custom-4 position-absolute owl-prev" ><i class="fas fa-chevron-left"></i></div>
+													<div class="owl-prev-custom-4 position-absolute ml-5 owl-next" ><i class="fas fa-chevron-right"></i></div>
 												</div>
 											</div>
 									  </div>
 							  </div>
                           </div>
 					  </div>
-<!--
-					  <div class="col-12 d-xl-none d-block">
-						  sss
-						  <div class="container">
-							  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-							  <img id="expandedImg" style="width:100%">
-
-							  <div id="imgtext"></div>
-							</div>
-					  </div>
--->
+					  
 					  <div class="col-sm-7 col-lg-8">
 						  <div class=" position-relative carousel2 pt-3 pt-lg-4">
                         <div class="owl-carousel4 owl-carousel owl-theme owl-loaded ">
@@ -2214,9 +2203,9 @@
 								<div class="owl-next-custom-4 position-absolute ml-5 owl-next" ><i class="fas fa-chevron-right"></i></div>
 							</div>
                     	</div>
-                    	</div>
-					  </div>
-				  </div>
+                      </div>
+                    </div>
+                </div>
 			</div>
         </div>
         <div class="bg-base">
@@ -2627,11 +2616,6 @@ $('.owl-prev-custom').click(function() {
 			owl.trigger('prev.owl.carousel', [300]);
 		})
 	});
-		
-		
-	</script>
-	<script>
-		
 		$('.owl-carousel5').owlCarousel({
 			loop:true,
 			dots:false,
@@ -2667,6 +2651,45 @@ $('.owl-prev-custom').click(function() {
 			// Parameters has to be in square bracket '[]'
 			owl.trigger('prev.owl.carousel', [300]);
 		})
+		
+	</script>
+	<script>
+		
+//		$('.owl-carousel5').owlCarousel({
+//			loop:true,
+//			dots:false,
+////            autoplay:true,
+////            autoplayTimeout:3000,
+////            autoplayHoverPause:true,
+////            items:2,
+//			responsive:{
+//        0:{
+//			margin:30,
+//            items:1
+//        },
+//        600:{
+//			margin:30,
+//            items:1
+//        },
+//        1000:{
+//            items:1,
+//			margin:14
+//        }
+//				
+//    }
+//		});
+//		var owl = $('.owl-carousel5');
+//		owl.owlCarousel();
+//		// Go to the next item
+//		$('.owl-next-custom-5').click(function() {
+//			owl.trigger('next.owl.carousel');
+//		});
+//		// Go to the previous item
+//		$('.owl-prev-custom-5').click(function() {
+//			// With optional speed parameter
+//			// Parameters has to be in square bracket '[]'
+//			owl.trigger('prev.owl.carousel', [300]);
+//		})
 	</script>
 	<script>
 		function myFunction(imgs) {

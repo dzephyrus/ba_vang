@@ -470,6 +470,12 @@ width: 212px;
     background-repeat: no-repeat;
     margin-right: 16px;
     }
+	a{
+		@extend .text-brown;
+		&:hover{
+			@extend .text-gold;
+		}
+	}
 }
 .card-mini{
 	.card-mini-image{
@@ -954,15 +960,18 @@ input[type="search"].sb-search-input {
             align-items: center;
             color: #ffffff;
             @extend .h2-mon;
-            &:before{
-            content: "";
-            width: 52px;
-            height: 36px;
-            display: inline-block;
-            background-image: url(../images/icon/white-lotus.svg);
-            background-repeat: no-repeat;
-            margin-right: 16px;
-        }
+				&:before{
+				content: "";
+				width: 52px;
+				height: 36px;
+				display: inline-block;
+				background-image: url(../images/icon/white-lotus.svg);
+				background-repeat: no-repeat;
+				margin-right: 16px;
+			}
+			a{
+				color: #FFFFFF
+			}
     }
     .cate-list{
         .cate-list_item:first-child{
