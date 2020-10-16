@@ -1144,6 +1144,46 @@ input[type="search"].sb-search-input {
 	}
 }
 
+// floating video
+	@keyframes fade-in-up {
+	 0% {
+		 opacity: 0;
+	}
+	 100% {
+		 transform: translateY(0);
+		 opacity: 1;
+	}
+}
+
+.video iframe {
+	 max-width: 100%;
+	 max-height: 100%;
+}
+
+.video.stuck {
+	 position: fixed;
+	 bottom: 20px;
+	 right: 20px;
+	 width: 260px;
+	 height: 145px;
+	 transform: translateY(100%);
+	 animation: fade-in-up 0.75s ease forwards;
+	z-index: 1;
+}
+///////////
+
+//video tiep theo
+.next-video{
+	overflow-y: auto; 
+	height: 940px;
+}
+///////////
+.list-video{
+	.lead-thumb{
+		top: 0;right:0; width: 25%;
+	}
+}
+
 .footer-section{
 	background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #ffffff99;
 border-radius: 7px;
