@@ -149,7 +149,7 @@ h6 {
 .fs-25 {
   font-size: 25px; }
 
-.bg-base {
+.bg-base, .grid-container .card {
   background-color: #fff8f2; }
 
 .bg-white {
@@ -218,7 +218,7 @@ p {
   font-size: 36px;
   line-height: 41px; }
 
-.h2-mon, .section-title, .gold-section .section-title {
+.h2-mon, .section-title, .gold-section .section-title, .list-view .card .list-view-detail a {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -924,6 +924,32 @@ input[type="search"].sb-search-input {
   top: 0;
   right: 0;
   width: 25%; }
+
+.card {
+  margin-bottom: 1rem; }
+
+.list-view .row > [class*='col-'] {
+  max-width: 100%;
+  flex: 0 0 100%; }
+.list-view .card {
+  flex-direction: row; }
+  @media (max-width: 575.98px) {
+    .list-view .card {
+      flex-direction: column; } }
+  .list-view .card > .card-img-top {
+    width: auto; }
+  .list-view .card .card-body {
+    display: inline-block; }
+
+.grid-container .card {
+  border: none; }
+
+.list-view .card .card-img-top {
+  width: 26%; }
+.list-view .card .list-view-detail {
+  display: flex;
+  align-items: center;
+  padding: 0px 15px; }
 
 .footer-section {
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #ffffff99;

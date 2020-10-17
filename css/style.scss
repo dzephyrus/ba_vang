@@ -1184,6 +1184,55 @@ input[type="search"].sb-search-input {
 	}
 }
 
+.card {
+   margin-bottom: 1rem;
+}
+
+.list-view {
+  .row {
+    > [class*='col-'] {
+      max-width: 100%;
+      flex: 0 0 100%;
+    }
+  }
+  .card {
+    @media (max-width: 575.98px) {
+     flex-direction: column;
+    }
+    flex-direction: row;
+    > .card-img-top {
+     width: auto;
+    }
+    
+    .card-body {
+      display: inline-block;
+    }
+  }
+}
+
+.grid-container{
+	.card{
+		@extend .bg-base;
+		border: none;
+	}
+}
+
+.list-view{
+	.card{
+		.card-img-top{
+			width: 26%;
+		}
+		.list-view-detail{
+			display: flex;
+			align-items: center;
+			padding: 0px 15px;
+			a{
+				@extend .h2-mon;
+			}
+		}
+	}
+}
+
 .footer-section{
 	background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #ffffff99;
 border-radius: 7px;
