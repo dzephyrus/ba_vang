@@ -149,7 +149,7 @@ h6 {
 .fs-25 {
   font-size: 25px; }
 
-.bg-base {
+.bg-base, .grid-container .card {
   background-color: #fff8f2; }
 
 .bg-white {
@@ -176,10 +176,10 @@ h6 {
 .text-lightgray {
   color: #828282; }
 
-.text-brown {
+.text-brown, .section-title a {
   color: #7A3E0C; }
 
-.text-gold {
+.text-gold, .section-title a:hover {
   color: #E5B764; }
 
 .gold-ul {
@@ -218,7 +218,7 @@ p {
   font-size: 36px;
   line-height: 41px; }
 
-.h2-mon, .section-title, .gold-section .section-title {
+.h2-mon, .section-title, .gold-section .section-title, .list-view .card .list-view-detail a {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -803,6 +803,8 @@ input[type="search"].sb-search-input {
       background-image: url(../images/icon/white-lotus.svg);
       background-repeat: no-repeat;
       margin-right: 16px; }
+    .gold-section .section-title a {
+      color: #FFFFFF; }
   .gold-section .cate-list .cate-list_item:first-child {
     border-left: 1px solid #ffffff; }
   .gold-section .cate-list .cate-list_item {
@@ -893,6 +895,61 @@ input[type="search"].sb-search-input {
       position: absolute;
       top: 8px;
       left: 0px; }
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+.video iframe {
+  max-width: 100%;
+  max-height: 100%; }
+
+.video.stuck {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 260px;
+  height: 145px;
+  transform: translateY(100%);
+  animation: fade-in-up 0.75s ease forwards;
+  z-index: 1; }
+
+.next-video {
+  overflow-y: auto;
+  height: 940px; }
+
+.list-video .lead-thumb {
+  top: 0;
+  right: 0;
+  width: 25%; }
+
+.card {
+  margin-bottom: 1rem; }
+
+.list-view .row > [class*='col-'] {
+  max-width: 100%;
+  flex: 0 0 100%; }
+.list-view .card {
+  flex-direction: row; }
+  @media (max-width: 575.98px) {
+    .list-view .card {
+      flex-direction: column; } }
+  .list-view .card > .card-img-top {
+    width: auto; }
+  .list-view .card .card-body {
+    display: inline-block; }
+
+.grid-container .card {
+  border: none; }
+
+.list-view .card .card-img-top {
+  width: 26%; }
+.list-view .card .list-view-detail {
+  display: flex;
+  align-items: center;
+  padding: 0px 15px; }
 
 .footer-section {
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #ffffff99;

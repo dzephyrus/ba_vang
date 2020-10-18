@@ -470,6 +470,12 @@ width: 212px;
     background-repeat: no-repeat;
     margin-right: 16px;
     }
+	a{
+		@extend .text-brown;
+		&:hover{
+			@extend .text-gold;
+		}
+	}
 }
 .card-mini{
 	.card-mini-image{
@@ -954,15 +960,18 @@ input[type="search"].sb-search-input {
             align-items: center;
             color: #ffffff;
             @extend .h2-mon;
-            &:before{
-            content: "";
-            width: 52px;
-            height: 36px;
-            display: inline-block;
-            background-image: url(../images/icon/white-lotus.svg);
-            background-repeat: no-repeat;
-            margin-right: 16px;
-        }
+				&:before{
+				content: "";
+				width: 52px;
+				height: 36px;
+				display: inline-block;
+				background-image: url(../images/icon/white-lotus.svg);
+				background-repeat: no-repeat;
+				margin-right: 16px;
+			}
+			a{
+				color: #FFFFFF
+			}
     }
     .cate-list{
         .cate-list_item:first-child{
@@ -1131,6 +1140,95 @@ input[type="search"].sb-search-input {
 			position: absolute;
 			top: 8px;
 			left: 0px;
+		}
+	}
+}
+
+// floating video
+	@keyframes fade-in-up {
+	 0% {
+		 opacity: 0;
+	}
+	 100% {
+		 transform: translateY(0);
+		 opacity: 1;
+	}
+}
+
+.video iframe {
+	 max-width: 100%;
+	 max-height: 100%;
+}
+
+.video.stuck {
+	 position: fixed;
+	 bottom: 20px;
+	 right: 20px;
+	 width: 260px;
+	 height: 145px;
+	 transform: translateY(100%);
+	 animation: fade-in-up 0.75s ease forwards;
+	z-index: 1;
+}
+///////////
+
+//video tiep theo
+.next-video{
+	overflow-y: auto; 
+	height: 940px;
+}
+///////////
+.list-video{
+	.lead-thumb{
+		top: 0;right:0; width: 25%;
+	}
+}
+
+.card {
+   margin-bottom: 1rem;
+}
+
+.list-view {
+  .row {
+    > [class*='col-'] {
+      max-width: 100%;
+      flex: 0 0 100%;
+    }
+  }
+  .card {
+    @media (max-width: 575.98px) {
+     flex-direction: column;
+    }
+    flex-direction: row;
+    > .card-img-top {
+     width: auto;
+    }
+    
+    .card-body {
+      display: inline-block;
+    }
+  }
+}
+
+.grid-container{
+	.card{
+		@extend .bg-base;
+		border: none;
+	}
+}
+
+.list-view{
+	.card{
+		.card-img-top{
+			width: 26%;
+		}
+		.list-view-detail{
+			display: flex;
+			align-items: center;
+			padding: 0px 15px;
+			a{
+				@extend .h2-mon;
+			}
 		}
 	}
 }
