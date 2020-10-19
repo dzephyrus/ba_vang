@@ -664,6 +664,7 @@ width: 212px;
     color: #FFFFFF;
     background-color: #E5B764;
     border-color: #E5B764;
+	width: 155px;
 }
 .item1{
     order: 1;
@@ -1231,6 +1232,27 @@ input[type="search"].sb-search-input {
 			}
 		}
 	}
+}
+
+.grid-list-button{
+	right: 0;
+	.btn-grid {
+		i{
+			font-size: 32px;
+		}
+	}
+	.btn-list {
+		i{
+			font-size: 34px;
+		}
+	}
+}
+
+.grid-image-lib1{
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(calc(8rem + 5vw + 5vh),1fr));
+	grid-gap: 2.5vmin;
+	padding: 2.5vmin;
 }
 
 .footer-section{
