@@ -225,7 +225,7 @@
 			</div>
 		</div>
 <!--		<a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>-->
-		<div class="position-absolute h-100 d-none d-xl-block" style="right: 330px">
+		<div class="position-absolute h-100 d-none d-xl-none" style="right: 330px">
 			<a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top p-0" role="button">
 			<span class="d-flex justify-content-center align-items-center h-100">
 				<i class="fas fa-arrow-up fs-14"></i>
@@ -275,7 +275,8 @@
                                     </div>
                                 </div>
                         </div>
-				<div class="row">
+				<div class="row list-grid-section">
+<!--
 					<div class="col-12 grid-container">
 					  <div class="row">
 						<div class="col-12 col-md-6 col-lg-4">
@@ -382,40 +383,62 @@
 						</div>
 					  </div>
 					</div>
+-->
+					<div class="wrap">
+						<a href="#" class="v-list">List </a>
+						  <a href="#" class="v-grid active">Grid</a>
+							<div class="module grid">
+							  <img src="http://placehold.it/300x150/4d4d4d/ffffff/&text=1" />
+							<div class="lead">
+							  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolor temporibus dolorum enim quibusdam unde!</p>
+							  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolor temporibus dolorum enim quibusdam unde!</p>
+							</div>
+						  </div>
+						  <div class="module grid">
+							  <img src="http://placehold.it/300x150/4d4d4d/ffffff/&text=2" />
+							<div class="lead">
+							  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolor temporibus dolorum enim quibusdam unde!</p>
+							  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolor temporibus dolorum enim quibusdam unde!</p>
+							</div>
+						  </div>
+						  <div class="module grid">
+							  <img src="http://placehold.it/300x150/4d4d4d/ffffff/&text=3" />
+							<div class="lead">
+							  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolor temporibus dolorum enim quibusdam unde!</p>
+							  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolor temporibus dolorum enim quibusdam unde!</p>
+							</div>
+						  </div>
+						</div>
 					<div class="w-100 py-4 my-2 d-none d-lg-block">
 						<a href="" class="d-block mx-auto seemore-button btn btn-warning px-4 py-2">
 							<span class="fs-16 font-weight-bold text-uppercase text-white">xem thêm</span>
 						</a>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row pb-xl-5">
 					<div class="col-12">
-                            <h3 class="section-title h2-mon"><a href="">Tin Tức</a></h3>
+                            <h3 class="section-title h2-mon pb-3"><a href="">Tin Tức</a></h3>
                     </div>
 					<div class="col-12">
-						<div class="row mx-n2">
-							<div class="col-6 px-2">
-								<div class="grid-image-lib1">
-									<a href="" class="">
-										<img src="images/Mask Group (1).png" alt="">
-									</a>
+							<div class="grid-image-lib w-100">
+								<div class="wrapper">
+								  <div class="box a">A</div>
+								  <div class="box b">B</div>
+								  <div class="box c">C</div>
+								  <div class="box d">D</div>
+								  <div class="box e">E</div>
+								  <div class="box a1">A</div>
+								  <div class="box b1">B</div>
+								  <div class="box c1">C</div>
+								  <div class="box d1">D</div>
+								  <div class="box e1">E</div>
 								</div>
 							</div>
-							<div class="col-6 px-2">
-								<div class="row mx-n2">
-									<div class="col-12 px-2">
-										<div class="d-flex justify-content-center overflow-hidden">
-											<img src="images/Rectangle 63.png" class="h-100 w-100" alt="">
-										</div>
-									</div>
-									<div class="col-12 px-2">
-										<div class="d-flex justify-content-center overflow-hidden">
-											<img src="images/Rectangle 63.png" class="h-100 w-100" alt="">
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+					</div>
+					<div class="w-100 py-4 my-2 d-xl-none d-block">
+						<a href="" class="d-block mx-auto seemore-button btn btn-warning px-4 py-2">
+							<span class="fs-16 font-weight-bold text-uppercase text-white">xem thêm</span>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -884,6 +907,18 @@ $(document).ready(function(){
 
 		$(document).on('click', '.btn-grid', gridList);
 		$(document).on('click', '.btn-list', showList);
+	</script>
+	<script>
+		$('a.v-list').click(function() {
+		 $('.module').removeClass('grid').addClass('list');
+		  $(this).addClass('active');
+		  $('a.v-grid').removeClass('active');
+		});
+		$('a.v-grid').click(function() {
+		 $('.module').removeClass('list').addClass('grid');
+		 $(this).addClass('active');
+		 $('a.v-list').removeClass('active');
+		});
 	</script>
 <!--
 	<script>

@@ -911,4 +911,51 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 		overflow-y: auto; 
 		height: 358px;
 	}
+	.grid-image-lib{
+		.wrapper {
+			display: grid;
+          grid-gap: 8px;
+          grid-template-columns: repeat(16, 1fr);
+          grid-template-rows: repeat(16, 117px);
+		}
+		.box{
+			&:first-child{
+			grid-column: 1/11;
+			grid-row: 1/2;
+			}
+			&:nth-child(2){
+				grid-column: 11/17;
+    		grid-row: 1 / 2;
+			}
+			&:nth-child(3){
+				grid-column: 1/17;
+		  grid-row: 2/4;
+			}
+			&:nth-child(4){
+				grid-column: 1/17;
+		  grid-row: 4/6;
+			}
+			&:nth-child(5){
+				grid-column: 1/10;
+		  grid-row: 6/7;
+			}
+			&:nth-child(6){
+				grid-column: 1/9;
+				grid-row: 10/14;
+			}
+			&:nth-child(7){
+				grid-column: 1/9;
+				grid-row: 10/14;
+			}
+			&:nth-child(8){
+
+			}
+			&:nth-child(9){
+
+			}
+			&:nth-child(10){
+
+			}
+		}
+	}
 }
