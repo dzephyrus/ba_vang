@@ -101,6 +101,14 @@
     grid-template-columns: repeat(auto-fit, minmax(176px, 1fr));
     grid-gap: 0px 20px;
 }
+	.grid-image-lib{
+		.wrapper {
+			display: grid;
+          grid-gap: 8px;
+          grid-template-columns: repeat(12, 55px);
+    		grid-template-rows: repeat(18, 55px);
+		}
+	}
 	
 //  .article-news{
 //  	.article-news_image{
@@ -350,6 +358,62 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 	.next-video{
 		overflow-y: auto; 
 		height: 658px;
+	}
+	.grid-image-lib{
+		.wrapper {
+			display: grid;
+          grid-gap: 8px;
+          grid-template-columns: repeat(16, 1fr);
+          grid-template-rows: repeat(8, 117px);
+		}
+		.box {
+			img{
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+			background-color: #2B2A2A;
+			&:first-child{
+				grid-column: 1/6;
+				grid-row: 1/2;
+			}
+			&:nth-child(2){
+				grid-column: 6/9;
+				grid-row: 1 / 2;
+			}
+			&:nth-child(3){
+				grid-column: 9/17;
+    			grid-row: 1/3;
+			}
+			&:nth-child(4){
+				grid-column: 1/9;
+				grid-row: 2/5;
+			}
+			&:nth-child(5){
+				grid-column: 9/17;
+				grid-row: 3/5;
+			}
+			&:nth-child(6){
+				grid-column: 1/10;
+				grid-row: 5/7;
+			}
+			&:nth-child(7){
+				grid-column: 10/17;
+				grid-row: 5/7;
+			}
+			&:nth-child(8){
+				grid-column: 1/6;
+				grid-row: 7/9;
+			}
+			&:nth-child(9){
+				grid-column: 6/11;
+				grid-row: 7/9;
+			}
+			&:nth-child(10){
+				grid-column: 11/17;
+				grid-row: 7/9;
+			}
+		}
 	}
 }
 
@@ -916,7 +980,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 			display: grid;
           grid-gap: 8px;
           grid-template-columns: repeat(16, 1fr);
-          grid-template-rows: repeat(16, 117px);
+          grid-template-rows: repeat(11, 117px);
 		}
 		.box{
 			&:first-child{
@@ -936,25 +1000,29 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 		  grid-row: 4/6;
 			}
 			&:nth-child(5){
-				grid-column: 1/10;
+				grid-column: 1/9;
 		  grid-row: 6/7;
 			}
 			&:nth-child(6){
-				grid-column: 1/9;
-				grid-row: 10/14;
+				grid-column: 9/17;
+    			grid-row: 6/7;
 			}
 			&:nth-child(7){
-				grid-column: 1/9;
-				grid-row: 10/14;
+				grid-column: 1/17;
+    			grid-row: 7/9;
+
 			}
 			&:nth-child(8){
-
+				grid-column: 1/17;
+    			grid-row: 9/11;
 			}
 			&:nth-child(9){
-
+				grid-column: 1/9;
+    			grid-row: 11/12;
 			}
 			&:nth-child(10){
-
+				grid-column: 9/17;
+    			grid-row: 11/12;
 			}
 		}
 	}
