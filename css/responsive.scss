@@ -415,6 +415,12 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 			}
 		}
 	}
+	.new-detail-description-text{
+		 border-left: none;
+		.count-image{
+			position: relative;
+		}
+	}
 }
 
 @media (max-width: 769px) {
@@ -1023,6 +1029,43 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 			&:nth-child(10){
 				grid-column: 9/17;
     			grid-row: 11/12;
+			}
+		}
+	}
+	.owl-carousel7{
+		padding: 0;
+		p{
+			height: 60px;
+		}
+	}
+	.new-detail-description-text{
+		 border-left: none;
+		.count-image{
+			position: relative;
+		}
+	}
+	.modal-custom{
+		.modal-dialog{
+			.modal-content{
+				button{
+					width: 50px;
+					height: 50px;
+					border-radius: 50px;
+					background-color: rgba(0,0,0,0.00);
+					top: -85%;
+    				right: -1%;
+					opacity: 1;
+					span{
+						font-size: 25px;
+						color: white;
+					}
+				}
+				.modal-image-title{
+					color: white;
+					background-color: #00000066;
+				}
+				border: none;
+				background-color:rgba(0,0,0,0.00);
 			}
 		}
 	}

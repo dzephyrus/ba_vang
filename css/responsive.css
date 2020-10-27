@@ -344,7 +344,12 @@
       grid-row: 7/9; }
     .grid-image-lib .box:nth-child(10) {
       grid-column: 11/17;
-      grid-row: 7/9; } }
+      grid-row: 7/9; }
+
+  .new-detail-description-text {
+    border-left: none; }
+    .new-detail-description-text .count-image {
+      position: relative; } }
 @media (max-width: 769px) {
   html, body {
     overflow-x: hidden;
@@ -862,6 +867,34 @@
     grid-row: 11/12; }
   .grid-image-lib .box:nth-child(10) {
     grid-column: 9/17;
-    grid-row: 11/12; } }
+    grid-row: 11/12; }
+
+  .owl-carousel7 {
+    padding: 0; }
+    .owl-carousel7 p {
+      height: 60px; }
+
+  .new-detail-description-text {
+    border-left: none; }
+    .new-detail-description-text .count-image {
+      position: relative; }
+
+  .modal-custom .modal-dialog .modal-content {
+    border: none;
+    background-color: rgba(0, 0, 0, 0); }
+    .modal-custom .modal-dialog .modal-content button {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      background-color: rgba(0, 0, 0, 0);
+      top: -85%;
+      right: -1%;
+      opacity: 1; }
+      .modal-custom .modal-dialog .modal-content button span {
+        font-size: 25px;
+        color: white; }
+    .modal-custom .modal-dialog .modal-content .modal-image-title {
+      color: white;
+      background-color: #00000066; } }
 
 /*# sourceMappingURL=responsive.css.map */

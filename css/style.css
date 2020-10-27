@@ -260,6 +260,13 @@ p {
   font-size: 12px;
   line-height: 15px; }
 
+.sub-title-8 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 15px; }
+
 .main-aside {
   width: 330px; }
 
@@ -789,22 +796,29 @@ input[type="search"].sb-search-input {
   .owl-carousel6 .owl-nav-custom .owl-next {
     right: -88px; }
 
-.owl-carousel7 .owl-nav-custom {
-  top: 60px; }
-  .owl-carousel7 .owl-nav-custom .owl-prev, .owl-carousel7 .owl-nav-custom .owl-next {
-    width: 64px;
-    height: 64px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #E5B764;
-    border-radius: 7px; }
-    .owl-carousel7 .owl-nav-custom .owl-prev i, .owl-carousel7 .owl-nav-custom .owl-next i {
-      font-size: 35px; }
-  .owl-carousel7 .owl-nav-custom .owl-prev {
-    left: -88px; }
-  .owl-carousel7 .owl-nav-custom .owl-next {
-    right: -88px; }
+.owl-carousel7 {
+  padding: 0 85px; }
+  .owl-carousel7 p {
+    height: 94px; }
+    .owl-carousel7 p img {
+      height: 100%;
+      object-fit: cover; }
+  .owl-carousel7 .owl-nav-custom {
+    top: 0px; }
+    .owl-carousel7 .owl-nav-custom .owl-prev, .owl-carousel7 .owl-nav-custom .owl-next {
+      width: 64px;
+      height: 64px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #E5B764;
+      border-radius: 7px; }
+      .owl-carousel7 .owl-nav-custom .owl-prev i, .owl-carousel7 .owl-nav-custom .owl-next i {
+        font-size: 35px; }
+    .owl-carousel7 .owl-nav-custom .owl-prev {
+      left: -88px; }
+    .owl-carousel7 .owl-nav-custom .owl-next {
+      right: 80px; }
 
 .gold-section {
   background-image: url("../images/phap-am-bg.jpg");
@@ -1102,6 +1116,27 @@ input[type="search"].sb-search-input {
 
 .img-lib-comment {
   height: 451px; }
+
+.modal-custom .modal-dialog {
+  max-width: 1120px; }
+  .modal-custom .modal-dialog .modal-content button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #7A3E0C;
+    top: -25px;
+    right: -25px;
+    opacity: 1; }
+    .modal-custom .modal-dialog .modal-content button span {
+      font-size: 25px;
+      color: white; }
+
+.new-detail-description-text {
+  border-left: 2px solid #7A3E0C; }
+  .new-detail-description-text .count-image {
+    position: absolute;
+    top: 0;
+    left: 0; }
 
 .focus-none:focus {
   box-shadow: none; }
