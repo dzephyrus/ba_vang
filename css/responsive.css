@@ -79,7 +79,33 @@
     display: grid;
     grid-gap: 8px;
     grid-template-columns: repeat(12, 55px);
-    grid-template-rows: repeat(18, 55px); } }
+    grid-template-rows: repeat(18, 55px); }
+
+  .modal-custom .modal-dialog {
+    width: 80%;
+    padding: 26px 0; }
+    .modal-custom .modal-dialog .modal-content {
+      border: none;
+      background-color: rgba(0, 0, 0, 0); }
+      .modal-custom .modal-dialog .modal-content button {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        background: #7A3E0C;
+        top: -19px;
+        right: -21px;
+        opacity: 1; }
+        .modal-custom .modal-dialog .modal-content button span {
+          font-size: 25px;
+          color: white; }
+      .modal-custom .modal-dialog .modal-content .modal-image-title {
+        color: white;
+        background-color: #00000066; }
+
+  .new-detail-description-text {
+    border-left: none; }
+    .new-detail-description-text .count-image {
+      position: relative; } }
 @media (max-width: 991px) {
   .w-md-25 {
     width: 25% !important; }
@@ -344,12 +370,7 @@
       grid-row: 7/9; }
     .grid-image-lib .box:nth-child(10) {
       grid-column: 11/17;
-      grid-row: 7/9; }
-
-  .new-detail-description-text {
-    border-left: none; }
-    .new-detail-description-text .count-image {
-      position: relative; } }
+      grid-row: 7/9; } }
 @media (max-width: 769px) {
   html, body {
     overflow-x: hidden;
@@ -879,22 +900,24 @@
     .new-detail-description-text .count-image {
       position: relative; }
 
-  .modal-custom .modal-dialog .modal-content {
-    border: none;
-    background-color: rgba(0, 0, 0, 0); }
-    .modal-custom .modal-dialog .modal-content button {
-      width: 50px;
-      height: 50px;
-      border-radius: 50px;
-      background-color: rgba(0, 0, 0, 0);
-      top: -85%;
-      right: -1%;
-      opacity: 1; }
-      .modal-custom .modal-dialog .modal-content button span {
-        font-size: 25px;
-        color: white; }
-    .modal-custom .modal-dialog .modal-content .modal-image-title {
-      color: white;
-      background-color: #00000066; } }
+  .modal-custom .modal-dialog {
+    width: 100%; }
+    .modal-custom .modal-dialog .modal-content {
+      border: none;
+      background-color: rgba(0, 0, 0, 0); }
+      .modal-custom .modal-dialog .modal-content button {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: rgba(0, 0, 0, 0);
+        top: -85%;
+        right: -1%;
+        opacity: 1; }
+        .modal-custom .modal-dialog .modal-content button span {
+          font-size: 25px;
+          color: white; }
+      .modal-custom .modal-dialog .modal-content .modal-image-title {
+        color: white;
+        background-color: #00000066; } }
 
 /*# sourceMappingURL=responsive.css.map */
