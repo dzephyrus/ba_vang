@@ -16,195 +16,54 @@
     <link rel="stylesheet" href="css/style.scss">
 	<link rel="stylesheet" href="css/responsive.scss">
 -->
-	
+	<style>
+		#navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+	</style>
 </head>
 
 <body >
-	<header>
-        <div class="w-100 d-none d-lg-block">
-            <div class="bg-gradient py-1" role="alert" aria-live="assertive" aria-atomic="true">
-                <div class="mx-auto d-flex justify-content-center align-items-center py-2">
-                    <div class="text-uppercase h3-mon text-white d-flex align-items-center">
-                        <span class="px-2"><img src="images/icon/dot.svg" alt=""></span>
-                        <span class="">trực tuyến</span>
-                    </div>
-                    <p class="sub-title-18 text-white pl-5">Khóa lễ Truyền Bát quan trai giới ngày 8/4/Canh Tý</p>
-					<button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-					  <span aria-hidden="true"><i class="fas fa-times text-white"></i></span>
-					</button>
-                </div>
-            </div>
-            <div class="w-1120 mx-auto row py-4 my-2 align-items-center">
-                <div class="col-4 d-flex align-items-center px-0">
-                    <div class="d-flex align-items-center pr-2">
-                        <img src="images/icon/england-flag.svg" alt="">
-                        <a href="" class="h4-mon text-brown pl-2 pr-3" style="white-space: nowrap">Tiếng anh</a>
-                        |
-                    </div>
-                    <div class=" text-brown">
-                        
-                        <p class="fs-12"><span class="font-weight-bold">Thứ Sáu,</span> <span>15/11/2019</span></p>
-                        <p class="fs-12">10:25 (GTM +7)</p>
-                    </div>
-                </div>
-                <div class="col-4 px-0">
-                    <p class="text-uppercase"></p>
-                    <h2 class="text-uppercase text-center h1-mon"><a href="" class=" text-brown">chùa ba vàng.</a></h2>
-                </div>
-                <div class="col-4 px-0">
-                    <div class="d-flex justify-content-end">
-                        <div class="d-flex align-items-center pr-3">
-                            <a href="" class="text-brown fs-14"><i class="fab fa-facebook-f"></i></a>
-                            <a href="" class="text-brown fs-16 px-3"><i class="fab fa-instagram"></i></a>
-                            <a href="" class="text-brown fs-16"><i class="fab fa-youtube"></i></a>
-                        </div>
-                        <div class="">
-                            <form action="" class="search-bar d-flex overflow-hidden">
-                                <input type="text" class="border-0 col-10 pr-0 pl-2">
-                                <button class="col-2 px-0 bg-white border-0 text-brown" ><i class="fas fa-search"></i></button>
-                            </form>
-                        </div>
-                    </div>    
-                </div>
-            </div>
-            <div class="">
-                <div class="w-1120 mx-auto d-flex pt-xl-1 justify-content-between">
-                    <ul class="d-flex nav_desktop bg-transparent justify-content-between w-100">
-                        <li class="nav_item active bg-transparent pb-1"><a href="" class="pb-1"><img src="images/icon/Home 1.svg" alt=""></a></li>
-                        <li class="nav_item h3-mon">
-                            <a href="" class="">Giới thiệu <span><i class="fas fa-chevron-down fs-14"></i></span></a>
-                            <div class="nav_item_dropdown">
-                                <a href="" class="px-2 py-1 fs-16 d-block nav_item_dropdown-item">ádasdasd</a>
-                                <a href="" class="px-2 py-1 fs-16 d-block nav_item_dropdown-item">ádasádasdadasd</a>
-                                <a href="" class="px-2 py-1 fs-16 d-block nav_item_dropdown-item">ádasdádasdasdasd</a>
-                            </div>
-                        </li>
-                        <li class="nav_item h3-mon"><a href="" class="">Tin tức</a></li>
-                        <li class="nav_item h3-mon"><a href="" class="">Pháp âm</a></li>
-                        <li class="nav_item h3-mon"><a href="" class="">Bài cúng</a></li>
-                        <li class="nav_item h3-mon"><a href="" class="">Đạo tràng</a></li>
-                        <li class="nav_item h3-mon"><a href="" class="">Văn kinh</a></li>
-                        <li class="nav_item h3-mon"><a href="" class="">Trực tuyến</a></li>
-                        <li class="nav_item h3-mon"><a href="" class="">E-Magazine</a></li>
-                        <li class="nav_item bg-transparent"><a href="" class="pb-1"><img src="images/icon/Hamburger.svg" alt=""></a></li>
-                    </ul>
-<!--
-                    <div class="">
-                        <div class="btn-group mt-1" style="z-index: 15">
-						  <button type="button" class="btn shadow-none text-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							<i class="fas fa-search text-white fs-20"></i>
-						  </button>
-						  <div class="dropdown-menu dropdown-menu-right shadow-none bg-transparent border-0" style="width: 300px!important; left: -184px!important;">
-							<div class="input-group dropdown-item search-bar bg-transparent" style="top:-54px; right:-25px;">
-                              <input type="text" class="form-control shadow-none" placeholder="..." aria-label="Recipient's username">
-                              <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="button" style="background-color: #21C9F6"><i class="fas fa-search text-white fs-20"></i></button>
-                              </div>
-                            </div>
-						  </div>
-						</div>
-                    </div>
--->
-                </div>
-            </div>
-            
-        </div>
-<!--
-        <div class="" id="header">
-            <img src="images/Ad.png" alt="">
-        </div>
--->
-		<div class="mx-auto d-flex d-lg-none align-items-center py-2 bg-gradient justify-content-around live-section">
-                    <div class="text-uppercase h4-mon text-white d-flex align-items-center">
-                        <span class="px-2"><img src="images/icon/dot.svg" alt=""></span>
-                        <span class="">trực tuyến</span>
-                    </div>
-                    <a href="" class="sub-title-18 text-white  live-notification">Khóa lễ Truyền Bát quan trai giới ngày 8/4/Canh Tý</a>
-			<button class="hide"><i class="fas fa-times text-white"></i></button>
-                </div>
-        <div class="d-block d-lg-none " >
-				<div class="header bg-white d-flex align-items-center justify-content-between ">
-					<div class="col-7 col-sm-5 mx-auto ">
-						
-						<p class="text-center h2-mon">Chùa Ba Vàng</p>
-					</div>
-<!--
-					<div class="">
-						<div class="dropdown">
-						  <button class="btn border-0 shadow-none px-0 text-uppercase" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Drop
-						  </button>
-						  <div class="dropdown-menu border-0 position-relative pt-0 mt-0" style="z-index: 10" aria-labelledby="dropdownMenuButton">
-							<a class="dropdown-item text-dark font-weight-normal" href="#">Action</a>
-							<a class="dropdown-item text-dark font-weight-normal" href="#">Another action</a>
-							<a class="dropdown-item text-dark font-weight-normal" href="#">Something else here</a>
-						  </div>
-						</div>
-					</div>
--->
-					
-				</div>
-			
-				  <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
-				  <label for="openSidebarMenu" class="sidebarIconToggle">
-					<div class="spinner diagonal part-1"></div>
-					<div class="spinner horizontal"></div>
-					<div class="spinner diagonal part-2"></div>
-				  </label>
-				  <div id="sidebarMenu" style="z-index: 2">
-					<ul class="sidebarMenuInner">
-					  <li>công luận 24h</li>
-				<!--
-					  <li>
-						<div class="dropdown">
-				  <button class="btn dropdown-toggle border-0 shadow-none px-0 text-uppercase" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Dropdown button
-				  </button>
-				  <div class="dropdown-menu border-0 position-relative pt-0 mt-0" aria-labelledby="dropdownMenuButton">
-					<a class="dropdown-item text-dark font-weight-normal" href="#">Action</a>
-					<a class="dropdown-item text-dark font-weight-normal" href="#">Another action</a>
-					<a class="dropdown-item text-dark font-weight-normal" href="#">Something else here</a>
-				  </div>
-				</div>
-					  </li>
-				-->
-
-					  <li class="active">
-												<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="d-flex justify-content-between text-dark font-weight-normal">NGÂN HÀNG<em class="fa fa-chevron-down" aria-hidden="true"></em></a>
-											  <ul class="collapse list-unstyled sidebar-submenu" id="homeSubmenu">
-													<li class="sidebar-submenu_item ">
-														<a href="#" class="text-dark font-weight-normal">Home 1</a>
-													</li>
-													<li>
-														<a href="#" class="text-dark font-weight-normal">Home 2</a>
-													</li>
-													<li>
-														<a href="#" class="text-dark font-weight-normal">Home 3</a>
-													</li>
-											  </ul>
-											</li>
-					  <li><a href="https://twitter.com/plavookac" class="text-dark font-weight-normal" target="_blank">Twitter</a></li>
-					  <li><a href="https://www.youtube.com/channel/UCDfZM0IK6RBgud8HYGFXAJg" class="text-dark font-weight-normal" target="_blank">YouTube</a></li>
-					  <li><a href="https://www.linkedin.com/in/plavookac/" class="text-dark font-weight-normal" target="_blank">Linkedin</a></li>
-					</ul>
-				  </div>
-  					<div class="d-flex justify-content-end position-fixed " style="z-index: 11; right: 0">
-						<div class="btn-group mt-1" style="z-index: 15">
-						  <button type="button" class="btn shadow-none text-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							<i class="fas fa-search"></i>
-						  </button>
-						  <div class="dropdown-menu dropdown-menu-right shadow-none" style="width: 345px!important; left: -184px!important;">
-							<div class="input-group dropdown-item bg-white">
-							  <input type="text" class="form-control shadow-none" placeholder="..." aria-label="Recipient's username" aria-describedby="basic-addon2">
-							  <div class="input-group-append">
-								<button class="btn btn-outline-secondary" type="button">tìm kiếm</button>
-							  </div>
-							</div>
-						  </div>
-						</div>
-					</div>
+	<div class="d-block">
+		jgfgjjh gjhmn bmn<br>
+hgfhgf<br>
+gchgjv
+		jgfgjjh gjhmn bmn<br>
+hgfhgf<br>
+gchgjv
+		jgfgjjh gjhmn bmn<br>
+hgfhgf<br>
+gchgjv
+		jgfgjjh gjhmn bmn<br>
+hgfhgf<br>
+gchgjv
+		<div id="navbar">
+			  <a href="#home">Home</a>
+			  <a href="#news">News</a>
+			  <a href="#contact">Contact</a>
 			</div>
-    </header>
+	</div>
+	
     <article class="bg-white pt-md-0 px-md-0 container-fluid position-relative">
 		<div class="position-relative news-description mx-n3 mx-md-0">
 			<div class="w-1120 mx-auto ">
@@ -313,7 +172,7 @@
 				<div class="position-absolute h-100 pt-xl-5 w-100 d-block d-xl-none" style="right: 0%; z-index: 2">
 					<div class="position-sticky " style="top: 15px; ">
 						<div class="dropdown mx-n3 d-flex justify-content-end">
-						  <button class="btn bg-gradient rounded-0 border-0 col-2 col-sm-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  <button class="btn bg-gradient rounded-0 border-0 col-2 col-sm-1 focus-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							<div class="">
 								<img src="images/icon/lotus.svg" alt="">
 							</div>
@@ -922,6 +781,18 @@ $(document).ready(function(){
 		}
 	});
 }(jQuery));
+	</script>
+	<script>
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		var currentScrollPos = window.pageYOffset;
+		  if (prevScrollpos > currentScrollPos) {
+			document.getElementById("navbar").style.top = "0";
+		  } else {
+			document.getElementById("navbar").style.top = "-50px";
+		  }
+		  prevScrollpos = currentScrollPos;
+		}
 	</script>
 <!--
 	<script>

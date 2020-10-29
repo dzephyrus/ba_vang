@@ -22,7 +22,7 @@
 <body >
 	<header>
         <div class="w-100 d-none d-lg-block">
-            <div class="bg-gradient py-1" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="bg-gradient py-1 live-text" role="alert" aria-live="assertive" aria-atomic="true">
                 <div class="mx-auto d-flex justify-content-center align-items-center py-2">
                     <div class="text-uppercase h3-mon text-white d-flex align-items-center">
                         <span class="px-2"><img src="images/icon/dot.svg" alt=""></span>
@@ -793,6 +793,11 @@ $(document).ready(function(){
 		}
 	});
 }(jQuery));
+	</script>
+	<script>
+	$( ".close" ).click(function() {
+	  $( ".live-text" ).remove();
+	});
 	</script>
 <!--
 	<script>
