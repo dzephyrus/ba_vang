@@ -221,7 +221,7 @@
     position: absolute;
     height: 3px;
     width: 100%;
-    background-color: black; }
+    background-color: #828282; }
 
   .horizontal {
     transition: all 0.3s;
@@ -229,14 +229,14 @@
     position: relative;
     float: left;
     margin-top: 3px;
-    background-color: #2cc9f4; }
+    background-color: #828282; }
 
   .diagonal.part-1 {
     position: relative;
     transition: all 0.3s;
     box-sizing: border-box;
     float: left;
-    background-color: #2cc9f4; }
+    background-color: #828282; }
 
   .diagonal.part-2 {
     transition: all 0.3s;
@@ -244,7 +244,7 @@
     position: relative;
     float: left;
     margin-top: 3px;
-    background-color: #2cc9f4; }
+    background-color: #828282; }
 
   input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
     transition: all 0.3s;
@@ -474,7 +474,7 @@
     position: absolute;
     height: 3px;
     width: 100%;
-    background-color: black; }
+    background-color: #828282; }
 
   .horizontal {
     transition: all 0.3s;
@@ -482,14 +482,14 @@
     position: relative;
     float: left;
     margin-top: 3px;
-    background-color: #2cc9f4; }
+    background-color: #828282; }
 
   .diagonal.part-1 {
     position: relative;
     transition: all 0.3s;
     box-sizing: border-box;
     float: left;
-    background-color: #2cc9f4; }
+    background-color: #828282; }
 
   .diagonal.part-2 {
     transition: all 0.3s;
@@ -497,7 +497,7 @@
     position: relative;
     float: left;
     margin-top: 3px;
-    background-color: #2cc9f4; }
+    background-color: #828282; }
 
   input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
     transition: all 0.3s;
