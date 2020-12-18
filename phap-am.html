@@ -69,17 +69,30 @@
             </div>
             <div class="">
                 <div class="w-1120 mx-auto d-flex pt-xl-1 justify-content-between">
-                    <ul class="d-flex nav_desktop bg-transparent justify-content-between w-100">
+                    <ul class="d-flex nav_desktop bg-transparent justify-content-between w-100 navbar p-0">
                         <li class="nav_item active bg-transparent pb-1"><a href="" class="pb-1"><img src="images/icon/Home 1.svg" alt=""></a></li>
                         <li class="nav_item h3-mon">
                             <a href="" class="">Giới thiệu <span><i class="fas fa-chevron-down fs-14"></i></span></a>
+<!--
                             <div class="nav_item_dropdown">
                                 <a href="" class="px-2 py-1 fs-16 d-block nav_item_dropdown-item">ádasdasd</a>
                                 <a href="" class="px-2 py-1 fs-16 d-block nav_item_dropdown-item">ádasádasdadasd</a>
                                 <a href="" class="px-2 py-1 fs-16 d-block nav_item_dropdown-item">ádasdádasdasdasd</a>
                             </div>
+-->
+							<ul class="dropdown-menu fade-up">
+							  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+							  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+							  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+							</ul>
                         </li>
-                        <li class="nav_item h3-mon"><a href="" class="">Tin tức</a></li>
+                        <li class="nav_item h3-mon dropdown"><a href="" class="">Tin tức</a>
+							<ul class="dropdown-menu fade-up">
+							  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+							  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+							  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+							</ul>
+						</li>
                         <li class="nav_item h3-mon"><a href="" class="">Pháp âm</a></li>
                         <li class="nav_item h3-mon"><a href="" class="">Bài cúng</a></li>
                         <li class="nav_item h3-mon"><a href="" class="">Đạo tràng</a></li>
@@ -88,6 +101,7 @@
                         <li class="nav_item h3-mon"><a href="" class="">E-Magazine</a></li>
                         <li class="nav_item bg-transparent"><a href="" class="pb-1"><img src="images/icon/Hamburger.svg" alt=""></a></li>
                     </ul>
+					
 <!--
                     <div class="">
                         <div class="btn-group mt-1" style="z-index: 15">
@@ -305,16 +319,13 @@
 									</div>
 								</div>
 							</div>
-							<div class="d-flex justify-content-center py-4">
-								<a class="seemore-button btn btn-warning" href="#" role="button"><span class="fs-16 font-weight-bold text-uppercase text-white px-2">xem thêm</span></a>
-							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 pl-xl-0">
-						<div class="h-100 ">
-							<h4 class="section-title pt-3 pl-3 bg-white ">Video tiếp theo</h4>
-							<div class="bg-white pl-2 p-lg-3 pt-3 next-video">	
-								<div class="mini-news mx-auto col-sm-8 col-lg-12 px-sm-2 px-lg-0 px-0 px-sm-3 h-100" style="overflow-y: scroll;">
+					<div class="col-lg-4 pl-lg-0">
+						<div class="h-100 w-100 next-video bg-white">
+							<h4 class="section-title py-3 pl-3 bg-white sticky-top">Video tiếp theo</h4>
+							<div class="bg-white">	
+								<div class="mini-news mx-auto col-sm-9 col-lg-12 px-lg-3 px-0 px-sm-3 h-100">
                                     <div class="d-flex mini-news_item">
                                         <div class="col-3 col-lg-4 pl-0 pr-1 px-sm-0">
                                             <div class="mr-lg-n1">
@@ -515,6 +526,14 @@
 							</div>
 						</div>
 					</div>
+					<div class="d-flex py-4 w-100">
+						<div class="col-8 text-center">
+							<a class="seemore-button btn btn-warning" href="#" role="button"><span class="fs-16 font-weight-bold text-uppercase text-white px-2">xem thêm</span></a>
+						</div>
+						<div class="col-4">
+						
+						</div>
+                    </div>
 				</div>
 			</div>
 		</div>
